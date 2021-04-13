@@ -48,10 +48,7 @@ input, textarea {
     max-width: 100%;
     min-width: 200px;
     padding: 0;
-}
-button {
-    max-width: 100px;
-    margin: 1rem;
+    color: #04151F;
 }
 p {
     padding-left: 1rem;
@@ -79,4 +76,8 @@ footer {
 }
 #name {
     max-width: 300px;
+}
+#send {
+    background-color: #C44900;
+    color: #EFD6AC;
 }
