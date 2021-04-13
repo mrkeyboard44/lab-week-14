@@ -15,30 +15,53 @@ h1, h3 {
     margin: 1rem;
 }
 section {
+    display: flex;
+    grid-area: m;
     justify-content: center;
+}
+article {
     background-color: #423534;
-    max-width: 650px;
+    max-width: 500px;
+    width: 100%;
     margin: 2rem;
+    padding: 1rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
 }
 form {
     display: flex;
     flex-direction: column;
-    grid-area: m;
 }
 label {
     display: flex;
     flex-direction: column;
     margin: 1rem;
 }
+textarea {
+    min-height: 100px;
+}
 input, textarea {
     background-color: #EFD6AC;
     border: none;
+    margin: 1rem;
+    width: 100%;
+    max-width: 100%;
+    min-width: 200px;
+    padding: 0;
 }
 button {
-    
+    max-width: 100px;
+    margin: 1rem;
+}
+p {
+    padding-left: 1rem;
 }
 footer {
+    justify-content: center;
     grid-area: f;
+    background-color: #04151F;
+    padding: 1rem;
+    padding-left: 4rem;
 }
 .container {
     display: grid;
@@ -53,4 +76,7 @@ footer {
 }
 #email {
     max-width: 200px;
+}
+#name {
+    max-width: 300px;
 }
