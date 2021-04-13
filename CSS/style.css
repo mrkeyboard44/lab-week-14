@@ -14,3 +14,43 @@ header {
 h1, h3 {
     margin: 1rem;
 }
+section {
+    justify-content: center;
+    background-color: #423534;
+    max-width: 650px;
+    margin: 2rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    grid-area: m;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+input, textarea {
+    background-color: #EFD6AC;
+    border: none;
+}
+button {
+    
+}
+footer {
+    grid-area: f;
+}
+.container {
+    display: grid;
+    grid-template-rows: 125px 1fr;
+    grid-template-areas:
+        'h'
+        'm'
+        'f';
+    width: 100vw;
+    height: 100vh;
+    min-width: 500px
+}
+#email {
+    max-width: 200px;
+}
